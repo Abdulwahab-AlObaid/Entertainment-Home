@@ -45,11 +45,27 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oxs-rb-pXt">
-                                <rect key="frame" x="113" y="759" width="46" height="30"/>
+                                <rect key="frame" x="60" y="747" width="77" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="GoInsta:" destination="Df2-nv-YVb" eventType="touchUpInside" id="lXf-Zq-fZZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="22R-1S-xhK">
+                                <rect key="frame" x="277" y="747" width="77" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="GoInsta:" destination="Df2-nv-YVb" eventType="touchUpInside" id="4jr-Nu-tiI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ykT-NC-kBJ">
+                                <rect key="frame" x="169" y="747" width="77" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="GoInsta:" destination="Df2-nv-YVb" eventType="touchUpInside" id="eGL-YI-lIe"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -940,7 +956,7 @@
         <!--The Witcher-->
         <scene sceneID="7sh-fg-xuS">
             <objects>
-                <viewController id="g9k-PD-9re" sceneMemberID="viewController">
+                <viewController id="g9k-PD-9re" customClass="TheWitcher" customModule="Entertainment_Home" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rdC-KZ-Tqh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1009,6 +1025,9 @@
                                 <rect key="frame" x="165" y="528" width="70" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="play"/>
+                                <connections>
+                                    <action selector="Link:" destination="g9k-PD-9re" eventType="touchUpInside" id="Gv8-UM-8h4"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pLg-ja-WDE">
                                 <rect key="frame" x="41" y="664" width="336" height="131"/>
@@ -1525,7 +1544,7 @@
         <!--Law & Order-->
         <scene sceneID="skA-hr-B7r">
             <objects>
-                <viewController id="566-J4-foJ" sceneMemberID="viewController">
+                <viewController id="566-J4-foJ" customClass="Law_Order" customModule="Entertainment_Home" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="M2Z-jU-NHw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1594,6 +1613,9 @@
                                 <rect key="frame" x="165" y="528" width="70" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="play"/>
+                                <connections>
+                                    <action selector="LawOrder:" destination="566-J4-foJ" eventType="touchUpInside" id="dO6-iz-5BG"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xL1-VO-RYG">
                                 <rect key="frame" x="49" y="664" width="336" height="131"/>
@@ -1632,7 +1654,7 @@
         <!--Dexter-->
         <scene sceneID="sh6-Mr-dF7">
             <objects>
-                <viewController id="kOg-4s-19J" sceneMemberID="viewController">
+                <viewController id="kOg-4s-19J" customClass="Dexter" customModule="Entertainment_Home" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IMj-2f-01J">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1701,6 +1723,9 @@
                                 <rect key="frame" x="165" y="528" width="70" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="play"/>
+                                <connections>
+                                    <action selector="Dex:" destination="kOg-4s-19J" eventType="touchUpInside" id="IgY-lN-Gq8"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zyU-m9-n3U">
                                 <rect key="frame" x="20" y="664" width="336" height="160"/>
@@ -1739,7 +1764,7 @@
         <!--Vikings-->
         <scene sceneID="Qvk-ND-PCk">
             <objects>
-                <viewController id="bec-Nb-OgM" sceneMemberID="viewController">
+                <viewController id="bec-Nb-OgM" customClass="Viking" customModule="Entertainment_Home" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OCx-bl-D17">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1808,6 +1833,9 @@
                                 <rect key="frame" x="165" y="528" width="70" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="play"/>
+                                <connections>
+                                    <action selector="Vik:" destination="bec-Nb-OgM" eventType="touchUpInside" id="Cwk-IA-LAk"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zkT-HK-GP5">
                                 <rect key="frame" x="20" y="664" width="336" height="111"/>
@@ -1846,7 +1874,7 @@
         <!--Game of Thrones-->
         <scene sceneID="f2Y-HI-DXA">
             <objects>
-                <viewController id="Opr-ql-v0o" sceneMemberID="viewController">
+                <viewController id="Opr-ql-v0o" customClass="GOT" customModule="Entertainment_Home" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pS3-Tm-GWU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1911,6 +1939,9 @@
                                 <rect key="frame" x="172" y="528" width="70" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="play"/>
+                                <connections>
+                                    <action selector="GOT:" destination="Opr-ql-v0o" eventType="touchUpInside" id="JP9-BH-6PO"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GOT" translatesAutoresizingMaskIntoConstraints="NO" id="l31-vi-YG4">
                                 <rect key="frame" x="0.0" y="88" width="414" height="370"/>
