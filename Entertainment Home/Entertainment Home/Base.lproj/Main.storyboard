@@ -10,7 +10,7 @@
         <!--Home-->
         <scene sceneID="lPB-CK-9Uu">
             <objects>
-                <viewController id="Df2-nv-YVb" customClass="Home_page" customModule="Entertainment_Home" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Df2-nv-YVb" customClass="Insta" customModule="Entertainment_Home" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wkB-f8-je2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -44,28 +44,13 @@
                                 <color key="textColor" red="0.070727144899999997" green="0.082186798749999998" blue="0.56529306989999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oxs-rb-pXt">
-                                <rect key="frame" x="60" y="747" width="77" height="70"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ykT-NC-kBJ">
+                                <rect key="frame" x="172" y="747" width="70" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="GoInsta:" destination="Df2-nv-YVb" eventType="touchUpInside" id="lXf-Zq-fZZ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="22R-1S-xhK">
-                                <rect key="frame" x="277" y="747" width="77" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="GoInsta:" destination="Df2-nv-YVb" eventType="touchUpInside" id="4jr-Nu-tiI"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ykT-NC-kBJ">
-                                <rect key="frame" x="169" y="747" width="77" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" image="Insta"/>
                                 <connections>
                                     <action selector="GoInsta:" destination="Df2-nv-YVb" eventType="touchUpInside" id="eGL-YI-lIe"/>
+                                    <action selector="Insta:" destination="Df2-nv-YVb" eventType="touchUpInside" id="HRY-na-cSZ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3705,6 +3690,7 @@
         <image name="Dexter" width="284" height="177"/>
         <image name="Friends" width="268" height="188"/>
         <image name="GOT" width="300" height="168"/>
+        <image name="Insta" width="225" height="224"/>
         <image name="Law &amp; Order" width="259" height="194"/>
         <image name="Lucifer" width="1125" height="787"/>
         <image name="Modern" width="300" height="168"/>
