@@ -14,7 +14,6 @@
 		F3D7921E252CB2A800EBBA6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3D7921D252CB2A800EBBA6C /* Assets.xcassets */; };
 		F3D79221252CB2A800EBBA6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D7921F252CB2A800EBBA6C /* LaunchScreen.storyboard */; };
 		F3DA73262541CC1A002388E0 /* Home page.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DA73252541CC1A002388E0 /* Home page.swift */; };
-		F3DA73282541CF3A002388E0 /* FlashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DA73272541CF3A002388E0 /* FlashVC.swift */; };
 		F3DA732A2541D70F002388E0 /* TheWitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DA73292541D70F002388E0 /* TheWitcher.swift */; };
 		F3DA732C2541D81B002388E0 /* Law&Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DA732B2541D81B002388E0 /* Law&Order.swift */; };
 		F3DA732E2541D906002388E0 /* Dexter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DA732D2541D906002388E0 /* Dexter.swift */; };
@@ -33,7 +32,6 @@
 		F3D79220252CB2A800EBBA6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3D79222252CB2A800EBBA6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3DA73252541CC1A002388E0 /* Home page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home page.swift"; sourceTree = "<group>"; };
-		F3DA73272541CF3A002388E0 /* FlashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashVC.swift; sourceTree = "<group>"; };
 		F3DA73292541D70F002388E0 /* TheWitcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheWitcher.swift; sourceTree = "<group>"; };
 		F3DA732B2541D81B002388E0 /* Law&Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Law&Order.swift"; sourceTree = "<group>"; };
 		F3DA732D2541D906002388E0 /* Dexter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dexter.swift; sourceTree = "<group>"; };
@@ -82,7 +80,6 @@
 				F3DA732D2541D906002388E0 /* Dexter.swift */,
 				F3DA732B2541D81B002388E0 /* Law&Order.swift */,
 				F3DA73292541D70F002388E0 /* TheWitcher.swift */,
-				F3DA73272541CF3A002388E0 /* FlashVC.swift */,
 				F3DA73252541CC1A002388E0 /* Home page.swift */,
 				F3D7921D252CB2A800EBBA6C /* Assets.xcassets */,
 				F3D7921F252CB2A800EBBA6C /* LaunchScreen.storyboard */,
@@ -172,7 +169,6 @@
 				F3DA732A2541D70F002388E0 /* TheWitcher.swift in Sources */,
 				F3D79215252CB2A800EBBA6C /* AppDelegate.swift in Sources */,
 				F3D79217252CB2A800EBBA6C /* SceneDelegate.swift in Sources */,
-				F3DA73282541CF3A002388E0 /* FlashVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
