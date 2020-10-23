@@ -18,9 +18,9 @@ class Insta: UIViewController {
     
 
     @IBAction func Insta(_ sender: Any) {
-        if let url = URL(string: "https://www.instagram.com/entertainment_home_series/?hl=en") {
+       if let url = URL(string: "https://www.instagram.com/entertainment_home_series/?hl=en") {
             UIApplication.shared.open(url)
-        }    }
+       }    }
     /*
     // MARK: - Navigation
 

@@ -49,8 +49,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Insta"/>
                                 <connections>
-                                    <action selector="GoInsta:" destination="Df2-nv-YVb" eventType="touchUpInside" id="eGL-YI-lIe"/>
-                                    <action selector="Insta:" destination="Df2-nv-YVb" eventType="touchUpInside" id="HRY-na-cSZ"/>
+                                    <action selector="Insta:" destination="Df2-nv-YVb" eventType="touchUpInside" id="gzo-uK-dTW"/>
                                 </connections>
                             </button>
                         </subviews>
